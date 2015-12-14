@@ -1,0 +1,22 @@
+{
+  "name": "galvanize-blog",
+  "description": "Simple blog application",
+  "main": "server.js",
+  "authors": [
+    "Danny"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/djrobinson/galvanize_blog",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-tinymce": "~0.0.10"
+  }
+}

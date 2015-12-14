@@ -1,0 +1,60 @@
+.container {
+	margin-top: 400px;
+
+}
+
+.banner {
+	position: fixed;
+	border-style: solid;
+  	border-color: blue;
+  	height: 100px;
+  	width: 100%;
+  	text-align: center;
+}
+
+.bannerContainer {
+	position: absolute;
+	background-color: grey;
+  	height: 400px;
+  	width: 100%;
+  	text-align: center;
+  	margin-top: -50px;
+}
+
+.navbar-brand
+{	
+    position: absolute;
+	 width: 100%;
+	 left: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.bannerText {
+	margin-top: 50px;
+	width: 50%;
+	font-family: "Nixie One";
+	font-size: 8em;
+	text-align: center;
+}
+
+.left-sidebar {
+	position: fixed;
+	margin-top: -10%;
+	width: 200px;
+	height: 400px;
+	background-color: aqua;
+}
+
+.right-sidebar {
+	position: fixed;
+	right: 0;
+	width: 200px;
+	height: 100%;
+	background-color: aqua;
+	
+h3 {
+	font-family: "Nixie One" !important;
+	}
+
+

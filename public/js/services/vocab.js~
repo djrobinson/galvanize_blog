@@ -1,0 +1,14 @@
+
+angular.module('vocabService', [])
+
+	.factory('Vocab', function($http) {
+		return {
+			get : function(vocabTerm) {
+				return $http.get('api/vocab/' + vocabTerm);
+			},
+			
+			create : function(termData) {
+				return $http.post('api/vocab/', termData);
+			}
+		}
+	});
